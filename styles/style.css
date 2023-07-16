@@ -15,6 +15,13 @@ font-family: 'Work Sans', sans-serif;
     color: #727272;
   }
 
+  .all-title{
+    color: #131313;
+    font-size: 2.82rem;
+    font-weight: 700;
+ }
+
+
   /* header styles */
 /* nav related styles */
 
@@ -30,13 +37,6 @@ font-family: 'Work Sans', sans-serif;
     align-items: center;
   }
 
- .nav-title{
-    color: #131313;
-    font-size: 2.82rem;
-    font-weight: 700;
- }
-
-
   nav > ul{
     display: flex;
   }
@@ -51,6 +51,37 @@ font-family: 'Work Sans', sans-serif;
     color:#424242 ;
     font-size: 1rem;
     font-weight: 500;
+  }
+
+  /* banner related styles */
+  
+  .banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+  }
+
+
+  .btn-prmry{
+    border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+padding: 20px 25px;
+font-size: 1.25rem;
+font-weight: 600;
+cursor: pointer;
+border: 0;
+margin: 32px 0 50px 0;
+  }
+
+  .banner img{
+    width: 100%;
   }
 
   /* main styles */
@@ -95,35 +126,32 @@ font-family: 'Work Sans', sans-serif;
   }
 
 
-  /* banner related styles */
-  
-  .banner-content{
-    max-width: 800px;
-    text-align: center;
-    margin: 0 auto;
+  /* facts section styles */
+
+  .facts-cards-container{
+    display: flex;
+    justify-content: space-around;
   }
 
-  .banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #131313;
-  }
-
-
-  .btn-prmry{
+  .facts-cards-container .card{
     border-radius: 8px;
-background: #FF900E;
-color: #FFF;
-padding: 20px 25px;
-font-size: 1.25rem;
-font-weight: 600;
-cursor: pointer;
-border: 0;
-margin: 32px 0 50px 0;
+border: 1px solid #FF900E;
+text-align: center;
+padding: 40px 30px;
   }
 
-  .banner img{
-    width: 100%;
+  .facts-cards-container .card-stats{
+    font-size: 2.82rem;
+    font-weight: 600;
+    color: #424242;
+    margin: 5px 0;
+  }
+
+  .facts-cards-container .card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+    margin: 5px 0;
   }
 
 
