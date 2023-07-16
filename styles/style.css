@@ -1,9 +1,18 @@
 /* work sans font from google fonts */
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
+  /* shared styles */
+
   *{
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
+  }
+
+  .text-gray{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
   }
 
   /* header styles */
@@ -100,11 +109,6 @@ font-family: 'Work Sans', sans-serif;
     color: #131313;
   }
 
-  .banner-description{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #727272;
-  }
 
   .btn-prmry{
     border-radius: 8px;
@@ -132,9 +136,16 @@ margin: 32px 0 50px 0;
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .teams-container{
         flex-direction: column;
     }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding: 0 20px;
+      }
   }
 
 /* tablet or medium devices */
@@ -143,7 +154,8 @@ margin: 32px 0 50px 0;
     header{
         padding: 50px;
     }
-    nav{
+    nav,
+    .teams-container{
         flex-direction: column;
     }
 }
